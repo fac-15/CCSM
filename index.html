@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+
     <title>CSSM | FAC15</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
@@ -67,12 +68,19 @@
     </section>
 
     <section id="contact">
-      <!-- Mike & Charlie -->
+      <form action="/" method="post">
+        <h3>Get in touch!</h3>
+        <label for="first-name">First Name  </label><input id="first-name" type="text"/><br>
+        <label for="last-name">Last Name  </label><input id="last-name" type="text"/><br>
+        <label for="email">Email address  </label><input id="email" type="text"/><br>
+        <label for="message">Message  </label> <textarea id="message" placeholder="Type your message here" rows="8" cols="80"></textarea> <br>
+        <button type="button">Submit  </button>
+    </form>
     </section>
     <footer>
       <p>Copyright &copy; 2018 CCSM All rights reserved.</p>
     </footer>
-
+    
     <script src="script.js"></script>
   </body>
 </html>
