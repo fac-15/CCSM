@@ -1,1 +1,9 @@
+form {
+  text-align: center;
+}
 
+textarea {
+  width: 350px;
+  height: 150px;
+  vertical-align: top;
+}
