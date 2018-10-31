@@ -1,3 +1,11 @@
+body{
+  font: 20px 'Roboto Condensed';
+/*   color: #f2f2f2; */
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
 form {
   text-align: center;
 }
@@ -6,4 +14,52 @@ textarea {
   width: 350px;
   height: 150px;
   vertical-align: top;
+
+
+h3{
+  color: #ff4c4c;
+}
+#people {
+  width: 100%;
+  height: 600px;
+  border: 1px solid yellow;
+}
+
+.block.block--black {
+  background-color: #202020;
+}
+.block.block--grey{
+  background-color: #4a4b58;
+}
+
+.block {
+  width: 100%;
+  height: 600px;
+}
+
+.block__text {
+  float: left;
+  margin-left: -20px;
+  z-index: 100;
+}
+.block__img {
+  float: left;
+  
+}
+
+section{
+  width: 100%;
+  height: 600px;
+}
+.person-container {
+  width: 450px;
+  height: 400px;
+/*   margin-left: 200px; */
+}
+
+.block .person-container:first-child {
+  margin-left: 50%;
+}
+.block .person-container:last-child {
+  margin-left: 10%;
 }
