@@ -6,11 +6,8 @@
 
     <title>CSSM | FAC15</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <style>
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-</style>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800|Poppins:500,700" rel="stylesheet">
   </head>
-
 
   <body>
 
@@ -32,50 +29,57 @@
         </div>
       </nav>
       <h1>CSSM</h1>
-      <blockqoute>"We will solve your problems"</blockqoute>
+      <blockqoute><span class="color-q">"</span>We will solve your </br>problems </br><span class="color-q">and you </br>will pay </br>us.</span>"</blockqoute>
     </header>
 
     <section id="intro" class="block-intro">
-      <h2>Hi there, <span class="font-fancy">CSSM</span> are here</h2>
-      <p>A team of developers, designers & strategists.<a href="/">scroll to see more</a></p>
+      <h2>Hi there, <span class="font-fancy">CSSM</span> are here...</h2>
+      <p>A team of developers, designers & strategists.</p>
+      <p>We have a wide variety of skills check out out profiles to find out more.</p>
+        <p><a href="/">Scroll to see more</a></p>
     </section>
 
     <section id="people">
       <div class="block block--black">
-        <div class="person-container">
-          <img class="block__img" src="https://www.dropbox.com/s/7ah9ppe9a44c2jq/mug1.png?raw=1" alt="SG" height="210" width="210">
+        <div class="person-container float-right"><!--o-->
+          <img class="block__img" src="img/cynthia.png" alt="Cynthia" height="210" width="210">
           <div class="block__text">
-            <h3>Name Name</h3>
-            <p>Job Ttitle</p>
+            <h3>Cynthia </br>Onwordi</h3>
+            <p class="title">Web Developer</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa voluptate tempora modi delectus voluptas nesciunt animi</p>
             <a href="/">View Profile</a>
           </div>
         </div>
-        <div class="person-container">
-          <img class="block__img" src="https://www.dropbox.com/s/7ah9ppe9a44c2jq/mug1.png?raw=1" alt="SG" height="210" width="210">
-        <div class="block__text">
-          <h3>Name Name</h3>
-          <p>Job Ttitle</p>
-          <a href="/">View Profile</a>
-        </div>
+        <div class="clear"></div> <!--o-->
+        <div class="person-container float-left">
+          <img class="block__img" src="img/charlie.png" alt="Charlie" height="210" width="210">
+          <div class="block__text">
+            <h3>Charlie </br>La Fosse</h3>
+            <p class="title">Web Developer</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa voluptate tempora modi delectus voluptas nesciunt animi</p>
+            <a href="/">View Profile</a>
+          </div>
         </div>
       </div>
       <div class="block block--grey">
-        <div class="person-container">
-          <img class="block__img" src="https://www.dropbox.com/s/7ah9ppe9a44c2jq/mug1.png?raw=1" alt="SG" height="210" width="210">
-        <div class="block__text">
-          <h3>Name Name</h3>
-          <p>Job Ttitle</p>
-          <a href="/">View Profile</a>
+        <div class="person-container float-right"><!--o-->
+          <img class="block__img" src="img/sx.png" alt="Susan" height="210" width="210">
+          <div class="block__text">
+            <h3>Susan </br>Gooding</h3>
+            <p class="title">Web Developer</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa voluptate tempora modi delectus voluptas nesciunt animi</p>
+            <a href="/">View Profile</a>
+          </div>
         </div>
-        </div>
-
-        <div class="person-container">
-          <img class="block__img" src="https://www.dropbox.com/s/7ah9ppe9a44c2jq/mug1.png?raw=1" alt="SG" height="210" width="210">
-        <div class="block__text">
-          <h3>Name Name</h3>
-          <p>Job Ttitle</p>
-          <a href="/">View Profile</a>
-        </div>
+        <div class="clear"></div> <!--o-->
+        <div class="person-container float-left">
+          <img class="block__img" src="img/mic.png" alt="Michele Bio" height="210" width="210">
+          <div class="block__text">
+            <h3>Michele </br>Boi</h3>
+            <p class="title">Web Developer</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa voluptate tempora modi delectus voluptas nesciunt animi</p>
+            <a href="/">View Profile</a>
+          </div>
         </div>
       </div>
     </section>
@@ -84,10 +88,10 @@
     <section id="contact">
       <form action="/" method="post">
         <h3>Get in touch!</h3>
-        <label for="first-name" class='name-label'>First Name  </label><input id="first-name" type="text"/><br>
-        <label for="last-name" class='name-label'>Last Name  </label><input id="last-name" type="text"/><br>
-        <label for="email">Email address  </label><input id="email" type="text"/><br>
-        <label id="message-box-label" for="message">Message  </label> <textarea id="message" placeholder="Type your message here" rows="8" cols="45"></textarea> <br>
+        <div class="form_input"><label for="first-name">First Name  </label><input id="first-name" type="text" placeholder="First name" /></div>
+        <div class="form_input"><label for="last-name">Last Name  </label><input id="last-name" type="text" placeholder="Last name"/></div>
+        <div class="form_input"><label for="email">Email address  </label><input id="email" type="text" placeholder="Email" /></div>
+        <div class="form_input"><label for="message">Message  </label> <textarea id="message" placeholder="Type your message here" rows="8" cols="45"></textarea> <br>
         <button type="button">Submit  </button>
     </form>
     </section>
