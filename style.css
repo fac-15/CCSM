@@ -1,7 +1,5 @@
-
-
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   background-color: #fff;
   margin: 0;
@@ -23,7 +21,7 @@ blockqoute {
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 800;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 305px;
   margin: 0 auto;
   display: block;
@@ -38,20 +36,18 @@ blockqoute {
 }
 
 .block-intro {
- background-color: #9b9b9b;
- margin: 0;
- padding: 0;
+  background-color: #9b9b9b;
+  margin: 0;
+  padding: 0;
 }
-.block-intro h2{
+.block-intro h2 {
   padding-top: 150px;
   margin-top: 0;
   text-align: center;
   font-size: 3em;
-
-
 }
-.block-intro p{
-font-size: 1.5em;
+.block-intro p {
+  font-size: 1.5em;
   text-align: center;
 }
 
@@ -96,7 +92,7 @@ form {
 }
 
 .name-label {
-margin-left: 24px;
+  margin-left: 24px;
 }
 
 #message-box-label {
@@ -120,10 +116,10 @@ textarea {
 
 /* susan and cynthia */
 
-h3{
-  color: #FF4C4C;
+h3 {
+  color: #ff4c4c;
   font-size: 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   line-height: 35px;
   margin: 20px 0 0;
@@ -158,20 +154,18 @@ h3{
   width: 400px;
 }
 .block__text {
-  background-color: rgba(155,155,155, 0.3);
+  background-color: rgba(155, 155, 155, 0.3);
   padding: 8px 15px 20px;
 }
 .block__img {
   float: left;
 }
 
-
-
-.block:first-child{
+.block:first-child {
   padding: 100px 0;
 }
 
-section{
+section {
   width: 100%;
   height: 600px;
 }
@@ -179,52 +173,51 @@ section{
 .person-container {
   width: 600px;
   height: 400px;
-/*   margin-left: 200px; */
+  /*   margin-left: 200px; */
 }
-
 
 /* nav menu styling */
 
-  .navbar {
-    width: 50px;
-    display: block;
-    margin: 50px 0 auto 92%;
-    float: right;
-    /* border: 4px solid #00bfb6; */
-    padding: 8px 10px;
-    transition: all 0.5s;
-   -webkit-transition: all 0.5s;
-    position: fixed;
+.navbar {
+  width: 50px;
+  display: block;
+  margin: 50px 0 auto 92%;
+  float: right;
+  /* border: 4px solid #00bfb6; */
+  padding: 8px 10px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  position: fixed;
 }
 
 .navbar div {
-    height: 8px;
-    background: #ff4c4c;
-    margin: 7px 0px;
-    border-radius: 25px;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+  height: 8px;
+  background: #ff4c4c;
+  margin: 7px 0px;
+  border-radius: 25px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
 
 #navMenu {
-    /* float: right; */
-    background-color: rgba(33, 32, 39, 0.692);
-    height: 100vh;
-    width: 14vw;
-    float: right;
-    display: none;
-    z-index: 1;
-    position: fixed;
-    margin: -27px 0 -1px 85%;
-    text-align: center;
-    padding-top: 150px;
+  /* float: right; */
+  background-color: rgba(33, 32, 39, 0.692);
+  height: 100vh;
+  width: 14vw;
+  float: right;
+  display: none;
+  z-index: 1;
+  position: fixed;
+  margin: -50px 0 -1px 85%;
+  text-align: center;
+  padding-top: 150px;
 }
 
 #navMenu a:hover {
   color: #ff4c4c;
 }
 
-#close{
+#close {
   float: right;
   margin-right: 25px;
 }
@@ -232,12 +225,18 @@ section{
 a {
   color: white;
   text-decoration: none;
-  font-size: 0.9em;
+  font-size: 1.5em;
 }
 
-.two { width: 30px; }
-.three { width: 45px;}
-.navbar:hover div { width: 50px;}
+.two {
+  width: 30px;
+}
+.three {
+  width: 45px;
+}
+.navbar:hover div {
+  width: 50px;
+}
 
 #contact {
   background-color: #9b9b9b;
@@ -246,18 +245,18 @@ a {
   color: #202020;
 }
 
-form{
+form {
   width: 50%;
   margin: 0 auto;
   padding: 50px;
 }
 
-form input, textarea{
+form input,
+textarea {
   width: 100%;
-
 }
 
-form input{
+form input {
   height: 22px;
 }
 
@@ -277,25 +276,21 @@ button:hover {
   border-color: #d78e75;
   color: #202020;
 }
-.form_input{
-
+.form_input {
   line-height: 20px;
   padding: 10px;
   text-align: left;
-
 }
-
-
 
 footer {
   background-color: #202020;
   margin: 0;
 }
-footer  p{
+footer p {
   pading: 0;
   margin: 0;
   color: #f2f2f2;
-  font-size: .7rem;
+  font-size: 0.7rem;
   text-align: center;
   padding: 10px 0;
 }
