@@ -1,9 +1,66 @@
 body{
-  font: 20px 'Roboto Condensed';
-/*   color: #f2f2f2; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   background-color: #fff;
   margin: 0;
   padding: 0;
+  font-size: 16px;
+}
+header {
+  padding: 50px 20px 150px;
+  background-color: #ef9e82;
+}
+h1 {
+  font-size: 5rem;
+  margin: auto;
+  width: 290px;
+  height: 88px;
+}
+
+blockqoute {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+  width: 305px;
+  margin: 0 auto;
+  display: block;
+  line-height: 38px;
+  padding-top: 150px;
+  letter-spacing: -1px;
+  color: #202020;
+}
+
+.color-q {
+  color: #f2f2f2;
+}
+
+.person-container {
+  height: 400px;
+}
+
+.person-container a {
+  color: #a6a6a6;
+  text-decoration: none;
+  padding: 10px;
+  border: #a6a6a6 0.5px solid;
+  margin-top: 5px;
+  display: inline-block;
+  font-size: 12px;
+}
+.float-right {
+  float: right;
+  margin-right: 20%;
+}
+.float-left {
+  float: left;
+  margin-left: 20%;
+}
+.title {
+  color: #f2f2f2;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 /* form styles */
@@ -24,20 +81,28 @@ textarea {
 
 h3{
   color: #ff4c4c;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 30px 0 0;
 }
 #people {
   width: 100%;
   height: 600px;
-  border: 1px solid yellow;
+}
+
+#contact {
+  /* background-color: #9b9b9b; */
 }
 
 .block.block--black {
-  background-color: #202020;
-  padding: 40px;
+  background-color: #182e17;
+  /* padding: 40px;1D2a20 */
 }
 .block.block--grey{
-  background-color: #4a4b58;
-  padding: 40px;
+  background-color: #935c4d;
+  /* paddi: ;ng: 40px; */
 }
 
 .block {
@@ -47,31 +112,28 @@ h3{
 
 .block__text {
   float: left;
-  margin-left: -20px;
-  z-index: 100;
+  margin-left: -40px;
+  position: relative;
 }
 .block__img {
   float: left;
+}
 
+.block:first-child{
+  padding: 100px 0;
 }
 
 section{
   width: 100%;
   height: 600px;
-
 }
+
 .person-container {
   width: 450px;
   height: 400px;
 /*   margin-left: 200px; */
 }
 
-.block .person-container:first-child {
-  margin-left: 50%;
-}
-.block .person-container:last-child {
-  margin-left: 10%;
-}
 
   .navbar {
     width: 50px;
