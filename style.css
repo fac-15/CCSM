@@ -220,6 +220,9 @@ section {
 #close {
   float: right;
   margin-right: 25px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  padding: 3px 10px;
 }
 
 a {
@@ -293,4 +296,28 @@ footer p {
   font-size: 0.7rem;
   text-align: center;
   padding: 10px 0;
+}
+
+.names {
+  display: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+.names ol {
+  list-style-type: none;
+  margin: auto;
+  width: 375px;
+  text-transform: uppercase;
+}
+.names ol li {
+  float: left;
+  padding-right: 10px;
+}
+.name-fancy {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1:hover + .names{
+  display: block;
 }
