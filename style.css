@@ -130,15 +130,11 @@ h3 {
 }
 
 .block.block--black {
-  /* background-color: #274725; */
   background-color: #576b56;
   height: 650px;
-
-  /* padding: 40px;1D2a20 */
 }
 .block.block--grey {
   background-color: #935c4d;
-  /* paddi: ;ng: 40px; */
   height: 900px;
 }
 
@@ -151,7 +147,7 @@ h3 {
   float: left;
   margin-left: -40px;
   position: relative;
-  width: 400px;
+  width: 65%;
 }
 .block__text {
   background-color: rgba(155, 155, 155, 0.3);
@@ -163,6 +159,10 @@ h3 {
 
 .block:first-child {
   padding: 100px 0;
+}
+
+.block--grey {
+  padding: 0 100px;
 }
 
 section {
@@ -320,4 +320,55 @@ footer p {
 
 h1:hover + .names {
   display: block;
+}
+
+
+/************************
+* Media Queries
+************************/
+
+@media only screen and (max-width: 800px) {
+  .float-left {
+    margin-left: 10px
+  }
+  .float-right {
+    margin-right: 10px;
+  }
+
+  .block__img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .block__text h3 {
+    font-size: 1.6rem;
+  }
+
+  .navbar {
+    margin-left: 85%;
+    z-index: 100;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .float-left {
+    float: none;
+  }
+  .float-right {
+    float: none;
+  }
+
+  .navbar {
+    margin-left: 85%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .block__text {
+    width: 55%;
+
+  }
+  .block {
+    height: 700px;
+  }
 }
