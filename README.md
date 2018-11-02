@@ -32,7 +32,12 @@ Our aim for the project was to make a portfolio to showcase all our talents in u
 * Accessibility could have been highlighted throughout the project.  
 * Avoiding Patch-work code - try to find and fix the problem instead of coding a hotfix.
 
-### Stretch goals;
+### Stretch goals:
 * Specific error messages for form inputs.  
 * Mobile Optimization.
+
+
+
+## Remember... Theres ALWAYS more to Learn!
+![learning](https://media.giphy.com/media/13TfEn74wWwZAQ/giphy.gif)
 
