@@ -6,7 +6,7 @@ https://fac-15.github.io/CCSM/
 _(Cynthia Charlie Susan Michele)_
 
 ## Aim:
-Our aim for the project was to make a portfolio to showcase all our talents in using github, html, css, javascript and Team work!
+Our aim for the project was to make a portfolio to showcase all our talents in using github, HTML, CSS, JavaScript and Team work!
 
 ### Layout & Sitemap
 * Home screen  
@@ -15,7 +15,7 @@ Our aim for the project was to make a portfolio to showcase all our talents in u
 * Contact Us
 
 ### Colour Scheme
-![CCSM](/img/cs.png)
+![CCSM](/img/colorscheme.png)
 
 ### Lessons Learnt:
 * Whilst pair programming you can be in the drivers seat, and still pick up on a lot and learn new skills.  
@@ -34,7 +34,9 @@ Our aim for the project was to make a portfolio to showcase all our talents in u
 
 ### Stretch goals:
 * Specific error messages for form inputs.  
-* Mobile Optimization.
+* Mobile Optimization.  
+* Add links to personal social media (github profiles).  
+* Make profile modal when user clicks on _'View Profile'_.
 
 
 
