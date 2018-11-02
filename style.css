@@ -1,3 +1,25 @@
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@media only screen and (max-width: 615px) {
+  body {
+    font-style: italic;
+    min-width: 500px;
+  }
+  person-container {
+    width: auto;
+  }
+  section {
+    /* min-width: 500px; */
+  }
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -173,11 +195,16 @@ section {
 }
 
 /* nav menu styling */
+#navbar_right {
+  float: right;
+  /* position: fixed; */
+}
 
 .navbar {
   width: 50px;
   display: block;
-  margin: 50px 0 auto 92%;
+  /* margin: 50px 0 auto 60%; */
+  margin-left: -20%;
   float: right;
   /* border: 4px solid #00bfb6; */
   padding: 8px 10px;
@@ -318,14 +345,13 @@ h1:hover + .names {
   display: block;
 }
 
-
 /************************
 * Media Queries
 ************************/
 
 @media only screen and (max-width: 800px) {
   .float-left {
-    margin-left: 10px
+    margin-left: 10px;
   }
   .float-right {
     margin-right: 10px;
@@ -342,7 +368,13 @@ h1:hover + .names {
 
   .navbar {
     margin-left: 85%;
+    float: none;
     z-index: 100;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #navbar_right {
+    position: fixed;
   }
 }
 
@@ -362,9 +394,16 @@ h1:hover + .names {
 @media only screen and (max-width: 650px) {
   .block__text {
     width: 55%;
-
   }
   .block {
     height: 700px;
+  }
+}
+@media only screen and (max-width: 605px) {
+  .person-container {
+    width: 580px;
+  }
+  .navbar {
+    margin-left: 80%;
   }
 }
